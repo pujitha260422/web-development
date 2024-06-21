@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Layout</title>
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+font: weight 0;
+    }
+    header{
+        background-color: salmon;
+        padding: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    nav{
+        float: left;
+        width: 30%;
+        height: 350px;
+        background-color: aqua;
+        padding: 30px;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    ul a{
+        color: black;
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+    article{
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color:lightslategray;
+        height: 350px;
+    }
+    footer{
+        background-color: sienna;
+        padding: 10px;
+        text-align: center;
+    }
+    @media (max width: 600px){
+        nav,article{
+            width: 100%;
+            height: auto;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h2> Delhi </h2>
+    <p>Delhi, the capital of India, is also known for being the country's political hub. One of the most famous things in Delhi is the Parliament of India, divided into the Rajya Sabha and Lok Sabha. British designers Sir Edwin Lutyens and Sir Herbert Baker constructed it in 1927.
+</p>
+<p>
+    Delhi, India’s capital territory, is a massive metropolitan area in the country’s north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort, a symbol of India, and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people. Nearby is Chandni Chowk, a vibrant bazaar filled with food carts, sweets shops and spice stalls.
+</p>
+<header>
+    <h2> Visiting Places</h2>
+</header>
+<section>
+    <nav>
+        <ul>
+            <li><a href=".">Red Fort</a></li>
+            <li><a href=".">India Gate</a></li>
+            <li><a href=".">Indra Gandhi Museum</a></li>
+            <li><a href=".">Lotus Temple</a></li>
+            <li><a href=".">Parliament</a></li>
+        </ul>
+    </nav>
+</section>
+<article>
+    <h2> About Red Fort </h2>
+    <p>
+        The Agra Fort (Qila Agra) is a historical fort in the city of Agra, and also known as Agra's Red Fort. Mughal emperor Humayun was crowned at this fort in 1530. It was later renovated by the Mughal emperor Akbar from 1565 and the present-day structure was completed in 1573. It served as the main residence of the rulers of the Mughal dynasty until 1638, when the capital was shifted from Agra to Delhi. It was also known as the "Lal-Qila" or "Qila-i-Akbari".[1] Before being captured by the British, the last Indian rulers to have occupied it were the Marathas. 
+    </p>
+</article>
+<footer>
+    info about @delhi
+</footer>
+</body>
+</html>
